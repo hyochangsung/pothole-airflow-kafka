@@ -1,0 +1,58 @@
+[2026-05-07T06:19:40.106+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-07T06:19:40.118+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_daily_report.hnm_candidates_extraction manual__2026-05-07T06:19:18.178256+00:00 [queued]>
+[2026-05-07T06:19:40.125+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_daily_report.hnm_candidates_extraction manual__2026-05-07T06:19:18.178256+00:00 [queued]>
+[2026-05-07T06:19:40.126+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-07T06:19:40.142+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): hnm_candidates_extraction> on 2026-05-07 06:19:18.178256+00:00
+[2026-05-07T06:19:40.151+0000] {standard_task_runner.py:72} INFO - Started process 9508 to run task
+[2026-05-07T06:19:40.155+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_daily_report', 'hnm_candidates_extraction', 'manual__2026-05-07T06:19:18.178256+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/dag_daily_report.py', '--cfg-path', '/tmp/tmplsjj_pe6']
+[2026-05-07T06:19:40.159+0000] {standard_task_runner.py:105} INFO - Job 165: Subtask hnm_candidates_extraction
+[2026-05-07T06:19:40.195+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_daily_report.hnm_candidates_extraction manual__2026-05-07T06:19:18.178256+00:00 [running]> on host 0177f1ae1202
+[2026-05-07T06:19:40.262+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pipeline' AIRFLOW_CTX_DAG_ID='dag_daily_report' AIRFLOW_CTX_TASK_ID='hnm_candidates_extraction' AIRFLOW_CTX_EXECUTION_DATE='2026-05-07T06:19:18.178256+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-07T06:19:18.178256+00:00'
+[2026-05-07T06:19:40.263+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-07T06:19:40.280+0000] {dag_daily_report.py:334} INFO - [Task 3] 시작: 2026-05-07
+[2026-05-07T06:19:40.305+0000] {credentials.py:1075} INFO - Found credentials from IAM Role: exi-airflow-ec2-role
+[2026-05-07T06:19:40.425+0000] {dag_daily_report.py:126} INFO - S3 조회: s3://road-defect-seong/raw/raw_logs/year=2026/month=05/day=07/
+[2026-05-07T06:19:40.800+0000] {dag_daily_report.py:155} INFO - 로드 완료: 48,174건 (parse_error 제거: 0건)
+[2026-05-07T06:19:40.813+0000] {dag_daily_report.py:353} INFO - U_N 임계값: 0.5870, 후보: 474건
+[2026-05-07T06:19:40.816+0000] {dag_daily_report.py:360} INFO - U_P 임계값: 0.5056, 후보: 6건
+[2026-05-07T06:19:40.958+0000] {dag_daily_report.py:178} INFO - CSV 업로드: s3://road-defect-seong/reports/2026-05-07/task3_hnm_candidates.csv
+[2026-05-07T06:19:41.028+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 44148 (\N{HANGUL SYLLABLE GEON}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.029+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.053+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.054+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 49888 (\N{HANGUL SYLLABLE SIN}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.055+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 47280 (\N{HANGUL SYLLABLE ROE}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.056+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 46020 (\N{HANGUL SYLLABLE DO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.057+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 54980 (\N{HANGUL SYLLABLE HU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.058+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 48372 (\N{HANGUL SYLLABLE BO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.059+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 49345 (\N{HANGUL SYLLABLE SANG}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.060+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 50948 (\N{HANGUL SYLLABLE WI}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.094+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 51200 (\N{HANGUL SYLLABLE JEO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.096+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.101+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 52628 (\N{HANGUL SYLLABLE CU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.102+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 52636 (\N{HANGUL SYLLABLE CUL}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.103+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 44208 (\N{HANGUL SYLLABLE GYEOL}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.104+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:391 UserWarning: Glyph 44284 (\N{HANGUL SYLLABLE GWA}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.127+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 44256 (\N{HANGUL SYLLABLE GO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.128+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 49888 (\N{HANGUL SYLLABLE SIN}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.129+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 47280 (\N{HANGUL SYLLABLE ROE}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.130+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 46020 (\N{HANGUL SYLLABLE DO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.131+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 54980 (\N{HANGUL SYLLABLE HU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.132+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 48372 (\N{HANGUL SYLLABLE BO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.133+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 49345 (\N{HANGUL SYLLABLE SANG}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.134+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 50948 (\N{HANGUL SYLLABLE WI}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.135+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 44148 (\N{HANGUL SYLLABLE GEON}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.147+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 49688 (\N{HANGUL SYLLABLE SU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.162+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 51200 (\N{HANGUL SYLLABLE JEO}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.163+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 54616 (\N{HANGUL SYLLABLE HA}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.181+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 52628 (\N{HANGUL SYLLABLE CU}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.182+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 52636 (\N{HANGUL SYLLABLE CUL}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.183+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 44208 (\N{HANGUL SYLLABLE GYEOL}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.184+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/dag_daily_report.py:162 UserWarning: Glyph 44284 (\N{HANGUL SYLLABLE GWA}) missing from font(s) DejaVu Sans.
+[2026-05-07T06:19:41.488+0000] {dag_daily_report.py:167} INFO - PNG 업로드: s3://road-defect-seong/reports/2026-05-07/task3_hnm_candidates.png
+[2026-05-07T06:19:41.490+0000] {dag_daily_report.py:394} INFO - [Task 3] 완료. 총 480건
+[2026-05-07T06:19:41.494+0000] {python.py:240} INFO - Done. Returned value was: {'date': '2026-05-07', 'un': 474, 'up': 6, 'total': 480}
+[2026-05-07T06:19:41.509+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-07T06:19:41.510+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_daily_report, task_id=hnm_candidates_extraction, run_id=manual__2026-05-07T06:19:18.178256+00:00, execution_date=20260507T061918, start_date=20260507T061940, end_date=20260507T061941
+[2026-05-07T06:19:41.571+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-07T06:19:41.592+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-07T06:19:41.597+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

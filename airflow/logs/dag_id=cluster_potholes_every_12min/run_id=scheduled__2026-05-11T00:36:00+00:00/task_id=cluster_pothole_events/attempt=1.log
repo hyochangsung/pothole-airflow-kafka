@@ -1,0 +1,44 @@
+[2026-05-11T00:48:10.710+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-11T00:48:10.720+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T00:36:00+00:00 [queued]>
+[2026-05-11T00:48:10.726+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T00:36:00+00:00 [queued]>
+[2026-05-11T00:48:10.726+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-11T00:48:10.741+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): cluster_pothole_events> on 2026-05-11 00:36:00+00:00
+[2026-05-11T00:48:10.750+0000] {standard_task_runner.py:72} INFO - Started process 49180 to run task
+[2026-05-11T00:48:10.754+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cluster_potholes_every_12min', 'cluster_pothole_events', 'scheduled__2026-05-11T00:36:00+00:00', '--job-id', '1374', '--raw', '--subdir', 'DAGS_FOLDER/cluster_potholes_12min_dag.py', '--cfg-path', '/tmp/tmp5uwuxcfy']
+[2026-05-11T00:48:10.756+0000] {standard_task_runner.py:105} INFO - Job 1374: Subtask cluster_pothole_events
+[2026-05-11T00:48:10.794+0000] {task_command.py:467} INFO - Running <TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T00:36:00+00:00 [running]> on host 0177f1ae1202
+[2026-05-11T00:48:10.863+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pjt' AIRFLOW_CTX_DAG_ID='cluster_potholes_every_12min' AIRFLOW_CTX_TASK_ID='cluster_pothole_events' AIRFLOW_CTX_EXECUTION_DATE='2026-05-11T00:36:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-11T00:36:00+00:00'
+[2026-05-11T00:48:10.863+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-11T00:48:10.921+0000] {logging_mixin.py:190} INFO - Unclustered events count: 21
+[2026-05-11T00:48:10.921+0000] {logging_mixin.py:190} INFO - kakao_key_exists=True
+[2026-05-11T00:48:10.929+0000] {logging_mixin.py:190} INFO - Existing unrepaired clusters count: 413
+[2026-05-11T00:48:11.100+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004810_9b368fe8 from event_id=evt_ydp_04_middle_20260511_003619_4d9731ff, road_address=서울특별시 영등포구 경인로 878
+[2026-05-11T00:48:11.240+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_4d0295d7 from event_id=evt_ydp_05_first_20260511_003640_a1ac39c3, road_address=서울 영등포구 영등포동1가 143-3
+[2026-05-11T00:48:11.396+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_e6696b32 from event_id=evt_ydp_03_first_20260511_003841_19f6bdf8, road_address=서울 영등포구 영등포동2가 11-12
+[2026-05-11T00:48:11.629+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_c79875de from event_id=evt_ydp_02_first_20260511_004115_c95f3b00, road_address=서울 영등포구 양평동1가 1-26
+[2026-05-11T00:48:11.802+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_dff216be from event_id=evt_ydp_03_first_20260511_004313_f7445dcc, road_address=서울 영등포구 영등포동2가 94-342
+[2026-05-11T00:48:11.810+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_09_last_20260511_004589_fc45b496 into cluster_id=cluster_20260509154556_58098614, distance=9.86m
+[2026-05-11T00:48:11.960+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_3a439c72 from event_id=evt_ydp_01_last_20260511_004665_922d1fa9, road_address=서울특별시 구로구 디지털로32길 87
+[2026-05-11T00:48:12.099+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004811_3831fb0b from event_id=evt_ydp_03_first_20260511_004713_fde27f2b, road_address=서울 영등포구 영등포동2가 94-120
+[2026-05-11T00:48:12.248+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_23b1b750 from event_id=evt_ydp_03_first_20260511_004757_88e5f78d, road_address=서울 영등포구 영등포동7가 94-325
+[2026-05-11T00:48:12.253+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_05_first_20260511_004850_780f9ca4 into cluster_id=cluster_20260511004812_23b1b750, distance=1.01m
+[2026-05-11T00:48:12.396+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_705f704d from event_id=evt_ydp_09_last_20260511_004959_6e2b3aea, road_address=서울 영등포구 도림동 147-60
+[2026-05-11T00:48:12.536+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_89138b40 from event_id=evt_ydp_06_first_20260511_004992_1d8460ce, road_address=서울 영등포구 신길동 123-7
+[2026-05-11T00:48:12.708+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_e0979e6e from event_id=evt_ydp_07_middle_20260511_005081_d5702548, road_address=서울 영등포구 신길동 4877
+[2026-05-11T00:48:12.842+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_3ab62fb1 from event_id=evt_ydp_09_last_20260511_005128_e6e0783c, road_address=서울 영등포구 도림동 254-7
+[2026-05-11T00:48:12.847+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_07_middle_20260511_005135_08380b22 into cluster_id=cluster_20260509164812_b7eb44de, distance=2.40m
+[2026-05-11T00:48:12.995+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_c2572ce2 from event_id=evt_ydp_01_last_20260511_005185_a40fd573, road_address=서울 구로구 구로동 188-25
+[2026-05-11T00:48:13.149+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004812_bc307254 from event_id=evt_ydp_04_middle_20260511_005364_cfec90ed, road_address=서울 영등포구 당산동 121-81
+[2026-05-11T00:48:13.290+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004813_55c38617 from event_id=evt_ydp_01_last_20260511_005369_ee0f15b5, road_address=서울 구로구 구로동 181-4
+[2026-05-11T00:48:13.452+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004813_dcb08adf from event_id=evt_ydp_05_first_20260511_005409_b530a339, road_address=서울특별시 영등포구 버드나루로 130
+[2026-05-11T00:48:13.610+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004813_df725788 from event_id=evt_ydp_09_last_20260511_005551_dc08e7b3, road_address=서울 영등포구 대림동 608-3
+[2026-05-11T00:48:13.743+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511004813_fce9766d from event_id=evt_ydp_01_last_20260511_005670_cdab2afa, road_address=서울특별시 영등포구 디지털로 356-1
+[2026-05-11T00:48:13.746+0000] {logging_mixin.py:190} INFO - Cluster processing completed.
+[2026-05-11T00:48:13.746+0000] {logging_mixin.py:190} INFO - New clusters inserted: 18
+[2026-05-11T00:48:13.746+0000] {logging_mixin.py:190} INFO - Events merged into existing clusters: 3
+[2026-05-11T00:48:13.747+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-11T00:48:13.754+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-11T00:48:13.755+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cluster_potholes_every_12min, task_id=cluster_pothole_events, run_id=scheduled__2026-05-11T00:36:00+00:00, execution_date=20260511T003600, start_date=20260511T004810, end_date=20260511T004813
+[2026-05-11T00:48:13.816+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-11T00:48:13.828+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-11T00:48:13.828+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

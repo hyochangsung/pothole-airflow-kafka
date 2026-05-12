@@ -1,0 +1,23 @@
+[2026-05-10T14:00:22.896+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-10T14:00:22.909+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_daily_report.hnm_candidates_extraction scheduled__2026-05-10T13:48:00+00:00 [queued]>
+[2026-05-10T14:00:22.916+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_daily_report.hnm_candidates_extraction scheduled__2026-05-10T13:48:00+00:00 [queued]>
+[2026-05-10T14:00:22.917+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-10T14:00:22.935+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): hnm_candidates_extraction> on 2026-05-10 13:48:00+00:00
+[2026-05-10T14:00:22.945+0000] {standard_task_runner.py:72} INFO - Started process 44299 to run task
+[2026-05-10T14:00:22.949+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_daily_report', 'hnm_candidates_extraction', 'scheduled__2026-05-10T13:48:00+00:00', '--job-id', '1189', '--raw', '--subdir', 'DAGS_FOLDER/dag_daily_report.py', '--cfg-path', '/tmp/tmpnh87lca5']
+[2026-05-10T14:00:22.951+0000] {standard_task_runner.py:105} INFO - Job 1189: Subtask hnm_candidates_extraction
+[2026-05-10T14:00:22.999+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_daily_report.hnm_candidates_extraction scheduled__2026-05-10T13:48:00+00:00 [running]> on host 0177f1ae1202
+[2026-05-10T14:00:23.066+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pipeline' AIRFLOW_CTX_DAG_ID='dag_daily_report' AIRFLOW_CTX_TASK_ID='hnm_candidates_extraction' AIRFLOW_CTX_EXECUTION_DATE='2026-05-10T13:48:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-10T13:48:00+00:00'
+[2026-05-10T14:00:23.067+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-10T14:00:23.083+0000] {dag_daily_report.py:155} INFO - [Task 3] 시작: 2026-05-10
+[2026-05-10T14:00:23.106+0000] {credentials.py:1075} INFO - Found credentials from IAM Role: exi-airflow-ec2-role
+[2026-05-10T14:00:23.423+0000] {dag_daily_report.py:62} INFO - S3 조회: s3://road-defect-seong/raw/raw_logs/year=2026/month=05/day=10/
+[2026-05-10T14:00:24.326+0000] {dag_daily_report.py:91} INFO - 로드 완료: 233,455건 (parse_error 제거: 0건)
+[2026-05-10T14:00:24.690+0000] {dag_daily_report.py:103} INFO - CSV 업로드: s3://road-defect-seong/reports/2026-05-10/task3_hnm_candidates.csv
+[2026-05-10T14:00:24.692+0000] {dag_daily_report.py:174} INFO - [Task 3] 완료. 총 11633건
+[2026-05-10T14:00:24.706+0000] {python.py:240} INFO - Done. Returned value was: {'date': '2026-05-10', 'un': 11513, 'up': 120, 'total': 11633}
+[2026-05-10T14:00:24.721+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-10T14:00:24.721+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_daily_report, task_id=hnm_candidates_extraction, run_id=scheduled__2026-05-10T13:48:00+00:00, execution_date=20260510T134800, start_date=20260510T140022, end_date=20260510T140024
+[2026-05-10T14:00:24.807+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-10T14:00:24.828+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-10T14:00:24.834+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,4 @@
+confluent-kafka==2.6.1
+boto3==1.35.70
+pandas==2.2.3
+pyarrow==18.0.0

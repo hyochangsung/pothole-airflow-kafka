@@ -1,0 +1,497 @@
+[2026-05-12T00:00:05.710+0000] {processor.py:186} INFO - Started process (PID=58266) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:05.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:00:05.713+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:05.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:05.806+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:05.828+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:05.828+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:00:05.851+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:05.851+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:00:05.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:00:36.958+0000] {processor.py:186} INFO - Started process (PID=58269) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:36.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:00:36.961+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:36.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:37.054+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:00:37.075+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:37.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:00:37.099+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:00:37.098+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:00:37.120+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:01:07.208+0000] {processor.py:186} INFO - Started process (PID=58272) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:07.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:01:07.212+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:07.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:07.307+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:07.330+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:07.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:01:07.354+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:07.354+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:01:07.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:01:37.463+0000] {processor.py:186} INFO - Started process (PID=58275) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:37.464+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:01:37.467+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:37.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:37.561+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:01:37.582+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:37.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:01:37.607+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:01:37.606+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:01:37.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:02:07.720+0000] {processor.py:186} INFO - Started process (PID=58278) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:07.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:02:07.724+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:07.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:07.820+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:07.842+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:07.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:02:07.866+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:07.866+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:02:07.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:02:38.538+0000] {processor.py:186} INFO - Started process (PID=58281) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:38.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:02:38.541+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:38.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:38.637+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:02:38.659+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:38.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:02:38.684+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:02:38.684+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:02:38.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.176 seconds
+[2026-05-12T00:03:09.445+0000] {processor.py:186} INFO - Started process (PID=58284) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:09.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:03:09.448+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:09.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:09.544+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:09.566+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:09.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:03:09.590+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:09.590+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:03:09.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:03:40.345+0000] {processor.py:186} INFO - Started process (PID=58287) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:40.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:03:40.348+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:40.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:40.441+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:03:40.463+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:40.463+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:03:40.487+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:03:40.486+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:03:40.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:04:11.252+0000] {processor.py:186} INFO - Started process (PID=58290) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:11.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:04:11.256+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:11.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:11.353+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:11.374+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:11.374+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:04:11.400+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:11.399+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:04:11.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.176 seconds
+[2026-05-12T00:04:42.157+0000] {processor.py:186} INFO - Started process (PID=58293) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:42.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:04:42.161+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:42.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:42.255+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:04:42.276+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:42.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:04:42.300+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:04:42.300+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:04:42.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:05:13.058+0000] {processor.py:186} INFO - Started process (PID=58296) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:13.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:05:13.062+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:13.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:13.157+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:13.179+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:13.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:05:13.204+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:13.204+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:05:13.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:05:43.961+0000] {processor.py:186} INFO - Started process (PID=58299) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:43.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:05:43.964+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:43.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:44.059+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:05:44.080+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:44.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:05:44.104+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:05:44.104+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:05:44.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:06:14.860+0000] {processor.py:186} INFO - Started process (PID=58302) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:14.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:06:14.864+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:14.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:14.959+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:14.981+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:14.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:06:15.005+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:15.004+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:06:15.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:06:45.734+0000] {processor.py:186} INFO - Started process (PID=58305) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:45.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:06:45.737+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:45.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:45.833+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:06:45.854+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:45.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:06:45.880+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:06:45.879+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:06:45.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:07:16.635+0000] {processor.py:186} INFO - Started process (PID=58308) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:16.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:07:16.639+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:16.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:16.731+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:16.753+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:16.753+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:07:16.777+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:16.777+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:07:16.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:07:47.541+0000] {processor.py:186} INFO - Started process (PID=58311) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:47.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:07:47.544+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:47.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:47.638+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:07:47.659+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:47.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:07:47.684+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:07:47.684+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:07:47.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:08:18.440+0000] {processor.py:186} INFO - Started process (PID=58314) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:18.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:08:18.444+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:18.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:18.541+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:18.563+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:18.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:08:18.588+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:18.587+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:08:18.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.176 seconds
+[2026-05-12T00:08:49.341+0000] {processor.py:186} INFO - Started process (PID=58317) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:49.342+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:08:49.345+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:49.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:49.439+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:08:49.461+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:49.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:08:49.486+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:08:49.486+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:08:49.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.173 seconds
+[2026-05-12T00:09:20.243+0000] {processor.py:186} INFO - Started process (PID=58320) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:20.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:09:20.247+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:20.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:20.343+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:20.364+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:20.364+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:09:20.388+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:20.388+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:09:20.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.176 seconds
+[2026-05-12T00:09:51.147+0000] {processor.py:186} INFO - Started process (PID=58323) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:51.148+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:09:51.150+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:51.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:51.244+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:09:51.266+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:51.266+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:09:51.289+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:09:51.289+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:09:51.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:10:22.046+0000] {processor.py:186} INFO - Started process (PID=58326) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:22.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:10:22.050+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:22.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:22.146+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:22.167+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:22.166+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:10:22.191+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:22.191+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:10:22.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.173 seconds
+[2026-05-12T00:10:52.949+0000] {processor.py:186} INFO - Started process (PID=58329) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:52.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:10:52.952+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:52.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:53.048+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:10:53.070+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:53.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:10:53.094+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:10:53.094+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:10:53.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:11:23.849+0000] {processor.py:186} INFO - Started process (PID=58332) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:23.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:11:23.853+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:23.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:23.950+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:23.972+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:23.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:11:23.998+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:23.998+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:11:24.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.180 seconds
+[2026-05-12T00:11:54.751+0000] {processor.py:186} INFO - Started process (PID=58335) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:54.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:11:54.754+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:54.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:54.850+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:11:54.871+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:54.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:11:54.895+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:11:54.895+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:00:00+00:00, run_after=2026-05-12 00:12:00+00:00
+[2026-05-12T00:11:54.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:12:25.627+0000] {processor.py:186} INFO - Started process (PID=58343) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:25.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:12:25.631+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:25.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:25.726+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:25.749+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:25.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:12:25.773+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:25.773+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:12:25.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:12:56.248+0000] {processor.py:186} INFO - Started process (PID=58346) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:56.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:12:56.252+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:56.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:56.345+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:12:56.367+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:56.367+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:12:56.391+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:12:56.391+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:12:56.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:13:26.573+0000] {processor.py:186} INFO - Started process (PID=58349) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:26.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:13:26.577+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:26.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:26.670+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:26.692+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:26.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:13:26.715+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:26.715+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:13:26.736+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:13:58.428+0000] {processor.py:186} INFO - Started process (PID=58352) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:58.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:13:58.432+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:58.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:58.529+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:13:58.551+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:58.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:13:58.576+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:13:58.576+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:13:58.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.177 seconds
+[2026-05-12T00:14:28.959+0000] {processor.py:186} INFO - Started process (PID=58355) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:14:28.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:14:28.962+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:14:28.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:14:29.055+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:14:29.075+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:14:29.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:14:29.099+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:14:29.099+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:14:29.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:15:00.230+0000] {processor.py:186} INFO - Started process (PID=58358) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:00.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:15:00.235+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:00.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:00.329+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:00.351+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:00.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:15:00.376+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:00.376+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:15:00.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:15:31.132+0000] {processor.py:186} INFO - Started process (PID=58361) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:31.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:15:31.136+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:31.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:31.232+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:15:31.254+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:31.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:15:31.278+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:15:31.278+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:15:31.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:16:01.951+0000] {processor.py:186} INFO - Started process (PID=58364) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:01.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:16:01.955+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:01.954+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:02.046+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:02.068+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:02.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:16:02.092+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:02.092+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:16:02.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.168 seconds
+[2026-05-12T00:16:32.854+0000] {processor.py:186} INFO - Started process (PID=58368) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:32.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:16:32.858+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:32.857+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:32.951+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:16:32.972+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:32.971+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:16:32.996+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:16:32.996+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:16:33.017+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:17:03.757+0000] {processor.py:186} INFO - Started process (PID=58371) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:03.758+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:17:03.760+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:03.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:03.853+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:03.874+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:03.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:17:03.898+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:03.898+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:17:03.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:17:34.661+0000] {processor.py:186} INFO - Started process (PID=58374) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:34.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:17:34.664+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:34.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:34.759+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:17:34.780+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:34.780+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:17:34.805+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:17:34.805+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:17:34.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:18:05.561+0000] {processor.py:186} INFO - Started process (PID=58377) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:05.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:18:05.564+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:05.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:05.659+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:05.681+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:05.680+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:18:05.705+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:05.704+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:18:05.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.173 seconds
+[2026-05-12T00:18:36.464+0000] {processor.py:186} INFO - Started process (PID=58380) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:36.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:18:36.468+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:36.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:36.563+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:18:36.587+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:36.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:18:36.611+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:18:36.611+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:18:36.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.175 seconds
+[2026-05-12T00:19:07.364+0000] {processor.py:186} INFO - Started process (PID=58383) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:07.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:19:07.367+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:07.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:07.463+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:07.484+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:07.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:19:07.508+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:07.508+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:19:07.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:19:38.267+0000] {processor.py:186} INFO - Started process (PID=58386) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:38.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:19:38.271+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:38.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:38.365+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:19:38.386+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:38.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:19:38.409+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:19:38.409+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:19:38.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:20:08.997+0000] {processor.py:186} INFO - Started process (PID=58389) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:08.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:20:09.000+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:09.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:09.094+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:09.115+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:09.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:20:09.139+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:09.139+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:20:09.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:20:40.068+0000] {processor.py:186} INFO - Started process (PID=58392) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:40.070+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:20:40.072+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:40.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:40.167+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:20:40.189+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:40.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:20:40.213+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:20:40.212+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:20:40.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:21:10.975+0000] {processor.py:186} INFO - Started process (PID=58395) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:10.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:21:10.979+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:10.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:11.071+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:11.093+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:11.093+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:21:11.117+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:11.117+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:21:11.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:21:41.872+0000] {processor.py:186} INFO - Started process (PID=58398) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:41.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:21:41.875+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:41.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:41.971+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:21:41.992+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:41.992+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:21:42.018+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:21:42.018+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:21:42.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.324 seconds
+[2026-05-12T00:22:12.774+0000] {processor.py:186} INFO - Started process (PID=58401) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:12.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:22:12.777+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:12.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:12.870+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:12.892+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:12.892+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:22:12.916+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:12.916+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:22:12.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:22:43.676+0000] {processor.py:186} INFO - Started process (PID=58404) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:43.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:22:43.680+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:43.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:43.775+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:22:43.797+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:43.797+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:22:43.977+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:22:43.977+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:22:43.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.328 seconds
+[2026-05-12T00:23:15.033+0000] {processor.py:186} INFO - Started process (PID=58407) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:15.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:23:15.036+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:15.036+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:15.130+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:15.151+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:15.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:23:15.175+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:15.175+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:23:15.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.170 seconds
+[2026-05-12T00:23:45.481+0000] {processor.py:186} INFO - Started process (PID=58410) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:45.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:23:45.485+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:45.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:45.580+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:23:45.603+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:45.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:23:45.785+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:23:45.785+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:12:00+00:00, run_after=2026-05-12 00:24:00+00:00
+[2026-05-12T00:23:45.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.332 seconds
+[2026-05-12T00:24:15.901+0000] {processor.py:186} INFO - Started process (PID=58418) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:15.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:24:15.904+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:15.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:15.998+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:16.019+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:16.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:24:16.043+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:16.043+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:24:16.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.331 seconds
+[2026-05-12T00:24:46.425+0000] {processor.py:186} INFO - Started process (PID=58421) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:46.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:24:46.429+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:46.429+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:46.521+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:24:46.692+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:46.691+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:24:46.712+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:24:46.712+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:24:46.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.313 seconds
+[2026-05-12T00:25:17.091+0000] {processor.py:186} INFO - Started process (PID=58424) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:17.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:25:17.094+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:17.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:17.190+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:17.212+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:17.211+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:25:17.388+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:17.388+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:25:17.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.324 seconds
+[2026-05-12T00:25:48.864+0000] {processor.py:186} INFO - Started process (PID=58427) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:48.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:25:48.868+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:48.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:48.964+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:25:49.133+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:49.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:25:49.154+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:25:49.154+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:25:49.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.316 seconds
+[2026-05-12T00:26:19.676+0000] {processor.py:186} INFO - Started process (PID=58430) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:19.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:26:19.679+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:19.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:19.772+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:19.793+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:19.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:26:19.965+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:19.965+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:26:19.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.314 seconds
+[2026-05-12T00:26:50.580+0000] {processor.py:186} INFO - Started process (PID=58433) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:50.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:26:50.584+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:50.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:50.829+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:26:50.845+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:50.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:26:50.866+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:26:50.865+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:26:50.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.312 seconds
+[2026-05-12T00:27:21.482+0000] {processor.py:186} INFO - Started process (PID=58436) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:21.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:27:21.485+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:21.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:21.740+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:21.758+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:21.758+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:27:21.780+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:21.779+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:27:21.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.325 seconds
+[2026-05-12T00:27:52.287+0000] {processor.py:186} INFO - Started process (PID=58439) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:52.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:27:52.291+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:52.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:52.558+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:27:52.574+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:52.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:27:52.597+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:27:52.597+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:27:52.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.337 seconds
+[2026-05-12T00:28:23.187+0000] {processor.py:186} INFO - Started process (PID=58442) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:23.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:28:23.191+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:23.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:23.283+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:23.452+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:23.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:28:23.473+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:23.473+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:28:23.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.312 seconds
+[2026-05-12T00:28:54.004+0000] {processor.py:186} INFO - Started process (PID=58445) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:54.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:28:54.007+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:54.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:54.251+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:28:54.267+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:54.267+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:28:54.289+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:28:54.289+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:28:54.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.311 seconds
+[2026-05-12T00:29:24.819+0000] {processor.py:186} INFO - Started process (PID=58448) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:24.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:29:24.822+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:24.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:25.078+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:25.095+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:25.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:29:25.116+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:25.116+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:29:25.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.324 seconds
+[2026-05-12T00:29:55.638+0000] {processor.py:186} INFO - Started process (PID=58451) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:55.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:29:55.641+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:55.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:55.890+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:29:55.908+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:55.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:29:55.929+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:29:55.928+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:29:55.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.318 seconds
+[2026-05-12T00:30:26.540+0000] {processor.py:186} INFO - Started process (PID=58454) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:26.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:30:26.543+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:26.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:26.799+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:26.816+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:26.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:30:26.839+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:26.838+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:30:26.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.326 seconds
+[2026-05-12T00:30:57.442+0000] {processor.py:186} INFO - Started process (PID=58457) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:57.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:30:57.446+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:57.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:57.695+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:30:57.711+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:57.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:30:57.733+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:30:57.733+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:30:57.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.318 seconds
+[2026-05-12T00:31:28.254+0000] {processor.py:186} INFO - Started process (PID=58460) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:28.255+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:31:28.258+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:28.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:28.506+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:28.522+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:28.522+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:31:28.543+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:28.543+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:31:28.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.316 seconds
+[2026-05-12T00:31:58.962+0000] {processor.py:186} INFO - Started process (PID=58463) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:58.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:31:58.966+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:58.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:59.060+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:31:59.081+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:59.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:31:59.106+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:31:59.106+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:31:59.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:32:29.476+0000] {processor.py:186} INFO - Started process (PID=58466) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:32:29.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:32:29.480+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:32:29.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:32:29.574+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:32:29.595+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:32:29.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:32:29.619+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:32:29.618+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:32:29.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds
+[2026-05-12T00:33:00.361+0000] {processor.py:186} INFO - Started process (PID=58469) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:00.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:33:00.365+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:00.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:00.458+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:00.478+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:00.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:33:00.503+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:00.503+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:33:00.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.169 seconds
+[2026-05-12T00:33:31.063+0000] {processor.py:186} INFO - Started process (PID=58472) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:31.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:33:31.067+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:31.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:31.163+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:33:31.185+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:31.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:33:31.209+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:33:31.208+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:33:31.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.174 seconds
+[2026-05-12T00:34:01.765+0000] {processor.py:186} INFO - Started process (PID=58475) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:01.767+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:34:01.769+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:01.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:01.864+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:01.886+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:01.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:34:01.910+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:01.910+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:34:01.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.173 seconds
+[2026-05-12T00:34:32.428+0000] {processor.py:186} INFO - Started process (PID=58478) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:32.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:34:32.432+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:32.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:32.529+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:34:32.551+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:32.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:34:32.576+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:34:32.576+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:34:32.598+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.176 seconds
+[2026-05-12T00:35:03.130+0000] {processor.py:186} INFO - Started process (PID=58481) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:03.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:35:03.134+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:03.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:03.228+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:03.251+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:03.250+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:35:03.274+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:03.274+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:35:03.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.173 seconds
+[2026-05-12T00:35:33.830+0000] {processor.py:186} INFO - Started process (PID=58484) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:33.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:35:33.834+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:33.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:33.927+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:35:33.949+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:33.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:35:33.974+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:35:33.973+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:24:00+00:00, run_after=2026-05-12 00:36:00+00:00
+[2026-05-12T00:35:33.995+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.172 seconds
+[2026-05-12T00:36:07.104+0000] {processor.py:186} INFO - Started process (PID=58492) to work on /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:36:07.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cluster_potholes_12min_dag.py for tasks to queue
+[2026-05-12T00:36:07.107+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:36:07.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:36:07.201+0000] {processor.py:925} INFO - DAG(s) 'cluster_potholes_every_12min' retrieved from /opt/airflow/dags/cluster_potholes_12min_dag.py
+[2026-05-12T00:36:07.223+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:36:07.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-12T00:36:07.247+0000] {logging_mixin.py:190} INFO - [2026-05-12T00:36:07.246+0000] {dag.py:4180} INFO - Setting next_dagrun for cluster_potholes_every_12min to 2026-05-12 00:36:00+00:00, run_after=2026-05-12 00:48:00+00:00
+[2026-05-12T00:36:07.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cluster_potholes_12min_dag.py took 0.171 seconds

@@ -1,0 +1,31 @@
+[2026-05-06T03:55:12.066+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-06T03:55:12.075+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-06T03:36:00+00:00 [queued]>
+[2026-05-06T03:55:12.081+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-06T03:36:00+00:00 [queued]>
+[2026-05-06T03:55:12.081+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-06T03:55:12.097+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): cluster_pothole_events> on 2026-05-06 03:36:00+00:00
+[2026-05-06T03:55:12.102+0000] {standard_task_runner.py:72} INFO - Started process 181 to run task
+[2026-05-06T03:55:12.106+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cluster_potholes_every_12min', 'cluster_pothole_events', 'scheduled__2026-05-06T03:36:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/cluster_potholes_12min_dag.py', '--cfg-path', '/tmp/tmpof_qi_ab']
+[2026-05-06T03:55:12.108+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask cluster_pothole_events
+[2026-05-06T03:55:12.148+0000] {task_command.py:467} INFO - Running <TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-06T03:36:00+00:00 [running]> on host 774ff55e248b
+[2026-05-06T03:55:12.213+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pjt' AIRFLOW_CTX_DAG_ID='cluster_potholes_every_12min' AIRFLOW_CTX_TASK_ID='cluster_pothole_events' AIRFLOW_CTX_EXECUTION_DATE='2026-05-06T03:36:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-06T03:36:00+00:00'
+[2026-05-06T03:55:12.213+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-06T03:55:12.290+0000] {logging_mixin.py:190} INFO - Unclustered events count: 9
+[2026-05-06T03:55:12.293+0000] {logging_mixin.py:190} INFO - Existing unrepaired clusters count: 0
+[2026-05-06T03:55:12.299+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_6c6f3198 from event_id=evt_ydp_05_first_20260506_000100_90c58173
+[2026-05-06T03:55:12.303+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_8ae80441 from event_id=evt_ydp_10_first_20260506_000110_fbe243e1
+[2026-05-06T03:55:12.309+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_176fd890 from event_id=evt_ydp_05_first_20260506_000142_47b37d2f
+[2026-05-06T03:55:12.314+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_b1150c2c from event_id=evt_ydp_09_first_20260506_000196_ec936700
+[2026-05-06T03:55:12.318+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_b040af04 from event_id=evt_ydp_08_first_20260506_000200_5ffc784f
+[2026-05-06T03:55:12.327+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_50036df5 from event_id=evt_ydp_10_first_20260506_000282_8eeff298
+[2026-05-06T03:55:12.331+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_3d87a67b from event_id=evt_ydp_11_first_20260506_000299_a47ca605
+[2026-05-06T03:55:12.336+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_4f0757be from event_id=evt_ydp_12_first_20260506_000308_c0dd7a14
+[2026-05-06T03:55:12.341+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260506035512_e7000cf0 from event_id=broker_test_001
+[2026-05-06T03:55:12.344+0000] {logging_mixin.py:190} INFO - Cluster processing completed.
+[2026-05-06T03:55:12.344+0000] {logging_mixin.py:190} INFO - New clusters inserted: 9
+[2026-05-06T03:55:12.344+0000] {logging_mixin.py:190} INFO - Events merged into existing clusters: 0
+[2026-05-06T03:55:12.344+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-06T03:55:12.349+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-06T03:55:12.349+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cluster_potholes_every_12min, task_id=cluster_pothole_events, run_id=scheduled__2026-05-06T03:36:00+00:00, execution_date=20260506T033600, start_date=20260506T035512, end_date=20260506T035512
+[2026-05-06T03:55:12.401+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-06T03:55:12.414+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-06T03:55:12.414+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

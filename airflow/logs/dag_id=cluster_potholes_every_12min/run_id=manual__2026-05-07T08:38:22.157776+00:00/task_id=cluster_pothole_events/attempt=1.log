@@ -1,0 +1,27 @@
+[2026-05-07T08:38:26.883+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-07T08:38:26.892+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events manual__2026-05-07T08:38:22.157776+00:00 [queued]>
+[2026-05-07T08:38:26.899+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events manual__2026-05-07T08:38:22.157776+00:00 [queued]>
+[2026-05-07T08:38:26.899+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-07T08:38:26.913+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): cluster_pothole_events> on 2026-05-07 08:38:22.157776+00:00
+[2026-05-07T08:38:26.920+0000] {standard_task_runner.py:72} INFO - Started process 10481 to run task
+[2026-05-07T08:38:26.924+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cluster_potholes_every_12min', 'cluster_pothole_events', 'manual__2026-05-07T08:38:22.157776+00:00', '--job-id', '190', '--raw', '--subdir', 'DAGS_FOLDER/cluster_potholes_12min_dag.py', '--cfg-path', '/tmp/tmpzbkahij2']
+[2026-05-07T08:38:26.926+0000] {standard_task_runner.py:105} INFO - Job 190: Subtask cluster_pothole_events
+[2026-05-07T08:38:26.963+0000] {task_command.py:467} INFO - Running <TaskInstance: cluster_potholes_every_12min.cluster_pothole_events manual__2026-05-07T08:38:22.157776+00:00 [running]> on host 0177f1ae1202
+[2026-05-07T08:38:27.029+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pjt' AIRFLOW_CTX_DAG_ID='cluster_potholes_every_12min' AIRFLOW_CTX_TASK_ID='cluster_pothole_events' AIRFLOW_CTX_EXECUTION_DATE='2026-05-07T08:38:22.157776+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-07T08:38:22.157776+00:00'
+[2026-05-07T08:38:27.029+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-07T08:38:27.087+0000] {logging_mixin.py:190} INFO - Unclustered events count: 4
+[2026-05-07T08:38:27.088+0000] {logging_mixin.py:190} INFO - kakao_key_exists=True
+[2026-05-07T08:38:27.093+0000] {logging_mixin.py:190} INFO - Existing unrepaired clusters count: 244
+[2026-05-07T08:38:27.099+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_01_middle_20260507_002035_e2c0e2ea into cluster_id=cluster_20260506055657_90fd114e, distance=7.09m
+[2026-05-07T08:38:27.270+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260507083827_3753fee6 from event_id=evt_ydp_12_middle_20260507_002070_c2f62afa, road_address=서울 영등포구 문래동3가 55-3
+[2026-05-07T08:38:27.275+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_03_middle_20260507_002088_43a6d1b8 into cluster_id=cluster_20260506055657_41689f25, distance=1.26m
+[2026-05-07T08:38:27.410+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260507083827_e5640316 from event_id=evt_ydp_11_middle_20260507_002099_5fbae440, road_address=서울 영등포구 여의도동 8-13
+[2026-05-07T08:38:27.413+0000] {logging_mixin.py:190} INFO - Cluster processing completed.
+[2026-05-07T08:38:27.413+0000] {logging_mixin.py:190} INFO - New clusters inserted: 2
+[2026-05-07T08:38:27.413+0000] {logging_mixin.py:190} INFO - Events merged into existing clusters: 2
+[2026-05-07T08:38:27.414+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-07T08:38:27.419+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-07T08:38:27.419+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cluster_potholes_every_12min, task_id=cluster_pothole_events, run_id=manual__2026-05-07T08:38:22.157776+00:00, execution_date=20260507T083822, start_date=20260507T083826, end_date=20260507T083827
+[2026-05-07T08:38:27.457+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-07T08:38:27.469+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-07T08:38:27.470+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

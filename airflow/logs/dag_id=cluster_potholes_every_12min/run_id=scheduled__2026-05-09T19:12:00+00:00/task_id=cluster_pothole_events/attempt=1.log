@@ -1,0 +1,18 @@
+[2026-05-09T19:24:10.810+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-09T19:24:10.819+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-09T19:12:00+00:00 [queued]>
+[2026-05-09T19:24:10.826+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-09T19:12:00+00:00 [queued]>
+[2026-05-09T19:24:10.826+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-09T19:24:10.840+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): cluster_pothole_events> on 2026-05-09 19:12:00+00:00
+[2026-05-09T19:24:10.848+0000] {standard_task_runner.py:72} INFO - Started process 33452 to run task
+[2026-05-09T19:24:10.852+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cluster_potholes_every_12min', 'cluster_pothole_events', 'scheduled__2026-05-09T19:12:00+00:00', '--job-id', '629', '--raw', '--subdir', 'DAGS_FOLDER/cluster_potholes_12min_dag.py', '--cfg-path', '/tmp/tmpt3okit5b']
+[2026-05-09T19:24:10.855+0000] {standard_task_runner.py:105} INFO - Job 629: Subtask cluster_pothole_events
+[2026-05-09T19:24:10.893+0000] {task_command.py:467} INFO - Running <TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-09T19:12:00+00:00 [running]> on host 0177f1ae1202
+[2026-05-09T19:24:10.958+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pjt' AIRFLOW_CTX_DAG_ID='cluster_potholes_every_12min' AIRFLOW_CTX_TASK_ID='cluster_pothole_events' AIRFLOW_CTX_EXECUTION_DATE='2026-05-09T19:12:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-09T19:12:00+00:00'
+[2026-05-09T19:24:10.959+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-09T19:24:11.016+0000] {logging_mixin.py:190} INFO - No unclustered P/U_P events.
+[2026-05-09T19:24:11.017+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-09T19:24:11.021+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-09T19:24:11.022+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cluster_potholes_every_12min, task_id=cluster_pothole_events, run_id=scheduled__2026-05-09T19:12:00+00:00, execution_date=20260509T191200, start_date=20260509T192410, end_date=20260509T192411
+[2026-05-09T19:24:11.065+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-09T19:24:11.076+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-09T19:24:11.077+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

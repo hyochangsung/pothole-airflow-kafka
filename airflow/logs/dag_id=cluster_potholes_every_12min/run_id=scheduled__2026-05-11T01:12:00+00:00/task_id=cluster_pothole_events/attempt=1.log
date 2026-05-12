@@ -1,0 +1,37 @@
+[2026-05-11T01:24:10.485+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-11T01:24:10.496+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T01:12:00+00:00 [queued]>
+[2026-05-11T01:24:10.502+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T01:12:00+00:00 [queued]>
+[2026-05-11T01:24:10.502+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2026-05-11T01:24:10.519+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): cluster_pothole_events> on 2026-05-11 01:12:00+00:00
+[2026-05-11T01:24:10.528+0000] {standard_task_runner.py:72} INFO - Started process 49576 to run task
+[2026-05-11T01:24:10.533+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'cluster_potholes_every_12min', 'cluster_pothole_events', 'scheduled__2026-05-11T01:12:00+00:00', '--job-id', '1398', '--raw', '--subdir', 'DAGS_FOLDER/cluster_potholes_12min_dag.py', '--cfg-path', '/tmp/tmps87963qo']
+[2026-05-11T01:24:10.535+0000] {standard_task_runner.py:105} INFO - Job 1398: Subtask cluster_pothole_events
+[2026-05-11T01:24:10.574+0000] {task_command.py:467} INFO - Running <TaskInstance: cluster_potholes_every_12min.cluster_pothole_events scheduled__2026-05-11T01:12:00+00:00 [running]> on host 0177f1ae1202
+[2026-05-11T01:24:10.643+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pothole-pjt' AIRFLOW_CTX_DAG_ID='cluster_potholes_every_12min' AIRFLOW_CTX_TASK_ID='cluster_pothole_events' AIRFLOW_CTX_EXECUTION_DATE='2026-05-11T01:12:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-11T01:12:00+00:00'
+[2026-05-11T01:24:10.644+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-05-11T01:24:10.702+0000] {logging_mixin.py:190} INFO - Unclustered events count: 14
+[2026-05-11T01:24:10.702+0000] {logging_mixin.py:190} INFO - kakao_key_exists=True
+[2026-05-11T01:24:10.710+0000] {logging_mixin.py:190} INFO - Existing unrepaired clusters count: 471
+[2026-05-11T01:24:11.036+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012410_9f9f228d from event_id=evt_ydp_03_first_20260511_003636_85e2ebd5, road_address=서울 영등포구 영등포동1가 111-1
+[2026-05-11T01:24:11.189+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_ce0bd5e2 from event_id=evt_ydp_02_first_20260511_003792_d0ab0d58, road_address=서울 영등포구 당산동2가 1-1
+[2026-05-11T01:24:11.353+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_5d7ef789 from event_id=evt_ydp_07_first_20260511_004112_2071cfc0, road_address=서울 영등포구 신길동 4958-1
+[2026-05-11T01:24:11.504+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_27c139b9 from event_id=evt_ydp_10_first_20260511_004132_3f036fed, road_address=서울 영등포구 여의도동 4-6
+[2026-05-11T01:24:11.510+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_07_first_20260511_004492_84937e10 into cluster_id=cluster_20260509154556_21b6be34, distance=9.01m
+[2026-05-11T01:24:11.660+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_65285ba7 from event_id=evt_ydp_03_first_20260511_004564_583f9aa2, road_address=서울 영등포구 영등포동2가 94-342
+[2026-05-11T01:24:11.823+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_7522c76a from event_id=evt_ydp_02_first_20260511_004689_341003e8, road_address=서울 영등포구 양평동1가 27-1
+[2026-05-11T01:24:11.964+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_2bedb715 from event_id=evt_ydp_07_first_20260511_004690_d7d163d7, road_address=서울 영등포구 신길동 897-4
+[2026-05-11T01:24:12.130+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012411_9eee1a67 from event_id=evt_ydp_09_first_20260511_004798_c12f5c96, road_address=서울 영등포구 신길동 298-2
+[2026-05-11T01:24:12.135+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_13_first_20260511_004822_5f13d86b into cluster_id=cluster_20260506061206_3d663203, distance=14.06m
+[2026-05-11T01:24:12.304+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012412_f51c3640 from event_id=evt_ydp_05_first_20260511_004898_62bd6d88, road_address=서울 영등포구 영등포동7가 94-90
+[2026-05-11T01:24:12.309+0000] {logging_mixin.py:190} INFO - Merged event_id=evt_ydp_12_first_20260511_005029_b4120077 into cluster_id=cluster_20260506055701_c41be86a, distance=5.18m
+[2026-05-11T01:24:12.445+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012412_f4f3af41 from event_id=evt_ydp_09_first_20260511_005335_b916ef6a, road_address=서울 영등포구 도림동 254-7
+[2026-05-11T01:24:12.590+0000] {logging_mixin.py:190} INFO - Created new cluster_id=cluster_20260511012412_44f055d8 from event_id=evt_ydp_02_first_20260511_005395_22b545ad, road_address=서울 영등포구 양평동1가 115-1
+[2026-05-11T01:24:12.593+0000] {logging_mixin.py:190} INFO - Cluster processing completed.
+[2026-05-11T01:24:12.594+0000] {logging_mixin.py:190} INFO - New clusters inserted: 11
+[2026-05-11T01:24:12.594+0000] {logging_mixin.py:190} INFO - Events merged into existing clusters: 3
+[2026-05-11T01:24:12.594+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-11T01:24:12.601+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-05-11T01:24:12.601+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=cluster_potholes_every_12min, task_id=cluster_pothole_events, run_id=scheduled__2026-05-11T01:12:00+00:00, execution_date=20260511T011200, start_date=20260511T012410, end_date=20260511T012412
+[2026-05-11T01:24:12.631+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-11T01:24:12.642+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-11T01:24:12.643+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

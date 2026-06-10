@@ -49,6 +49,7 @@ flowchart TD
         KUI["Kafka UI :8080"]
         PROD --> T1
         PROD --> T2
+        T1 --> KUI
     end
 
     subgraph Consumers["Docker Consumers — EC2 #1"]

@@ -41,7 +41,7 @@ docker compose logs --follow raw-log-rds-consumer
 6. PR에서 변경 내용과 CI 결과를 확인한 뒤 병합한다.
 7. PR 본문에 `Closes #번호`를 작성해 병합 시 Issue가 닫히게 한다.
 
-GitHub 작업은 `gh` CLI를 사용한다. PR을 만들기 전에는 `git diff --check`, `git status`, 실행한 검증 결과를 확인한다.
+GitHub 작업은 `gh` CLI를 사용한다. PR 제목과 본문은 한국어로 작성한다. PR을 만들기 전에는 `git diff --check`, `git status`, 실행한 검증 결과를 확인한다.
 
 ## AI 스킬
 
